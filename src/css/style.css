@@ -94,3 +94,45 @@ button:hover {
     position: fixed;
     bottom: 0;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        margin: 0;
+        border: 0;
+    }
+
+    .background {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .background img {
+        height: 100%;
+        width: auto;
+    }
+
+    #main {
+        width: 90vw;
+    }
+ 
+    #main .dropdown_content_p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    #main .dropdown_header_p {
+        font-weight: 600;
+        font-size: 14px;
+        width: 80%;
+    }
+    .attribution {
+        font-size: 10px;
+    }
+}

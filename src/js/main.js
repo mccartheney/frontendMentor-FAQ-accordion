@@ -19,21 +19,3 @@ openButtons.forEach (button => {
         }
     })
 })
-
-// openButtons.forEach(button => {
-//     button.addEventListener("click", () => {
-//         switch (button.getAttribute("active")) {
-//             case "true":
-//                 button.setAttribute("active", "false");
-//                 button.style.backgroundColor = "hsl(292, 42%, 14%)";
-//                 button.parentNode.parentNode.childNodes[3].style.display = "block";
-//                 break;
-
-//             default:
-//                 button.setAttribute("active", "true");
-//                 button.style.backgroundColor = "hsl(292, 16%, 49%)";
-//                 button.parentNode.parentNode.childNodes[3].style.display = "none";
-//                 break;
-//         }
-//     })
-// });

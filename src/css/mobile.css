@@ -1,0 +1,24 @@
+@media only screen and (max-device-width: 480px) {
+
+    html,body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    * {
+        margin: 0;
+        border: 0;
+    }
+
+    .background {
+        width: 100vw;
+        height: 40vh;
+        background-color: aqua;
+    }
+
+    .background img {
+        height: 100%;
+
+    }
+    
+}
